@@ -69,9 +69,12 @@ main{
     width:100%;
 }
 .Animation{
+    margin-right:50px;
+    margin-left:50px;
     display:block;
-    width:60%;
+    width:100%;
 }
+
 
 .art{
     font-size:30px;
@@ -95,11 +98,11 @@ main{
 
 
 @-webkit-keyframes animated_art {
-    0%   {background-color:#00ffff; left:300px; top:0px;}
-    25%  {background-color:#0099cc; left:50px; top:30px;}
-    50%  {background-color:#00cc99; left:300px; top:100px;}
-    75%  {background-color:#ffff33; left:400px; top: 50px;}
-    100% {background-color:#ff0066; left:0px; top:10px;}
+    0%   {background-color:#00ffff; left:600px; top:0px;}
+    25%  {background-color:#0099cc; left:0px; top:500px;}
+    50%  {background-color:#00cc99; left:600px; top:500px;}
+    75%  {background-color:#ffff33; left:400px; top: 0px;}
+    100% {background-color:#ff0066; left:600px; top:0px;}
 }
 
 /* Standard syntax */
