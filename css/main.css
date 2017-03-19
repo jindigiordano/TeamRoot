@@ -1,17 +1,4 @@
 
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-*{
-    font-family: 'Roboto', sans-serif;, cursive;
-}
-img,embed,object,video{
-    max-width: 100%;
-}
 header,nav,footer,section,article,div{
     box-sizing: border-box;
 
@@ -24,7 +11,6 @@ body{
     display: block;
     font-style: white;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
 }
 /*header*/
 
@@ -55,10 +41,6 @@ body{
     display: flex;
 }
 
-h1 {
-    color:#33bebe;
-}
-
 .footer{
     padding: .5em;
     width:100%;    
@@ -71,14 +53,14 @@ h1 {
     display: inline-block;
 }
 main{
-    height: 600px; 
-    margin-top:30px;
+    height: 700px; 
+    text-align: center
     vertical-align: middle;
     width:100%;
 }
 .Animation{
     display:block;
-    width:100%;
+    width:60%;
 }
 
 .art{
@@ -112,11 +94,11 @@ main{
 
 /* Standard syntax */
 @keyframes example{
-    0%   {background-color:#00ffff;}
-    25%  {background-color:#0099cc;}
-    50%  {background-color:#00cc99;}
-    75%  {background-color:#ffff33;}
-    100% {background-color:#ff0066;}
+    0%   {background-color:#00ffff; left:300px; top:0px;}
+    25%  {background-color:#0099cc; left:50px; top:30px;}
+    50%  {background-color:#00cc99; left:300px; top:100px;}
+    75%  {background-color:#ffff33; left:400px; top: 50px;}
+    100% {background-color:#ff0066; left:0px; top:10px;}
 }
 
 .music{
@@ -129,7 +111,6 @@ main{
     animation-name: animated_music;
     color:white;
     font-size:30px;
-    margin-left:150px;
     animation:reverse;
     position:relative;
     -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
@@ -155,8 +136,8 @@ main{
 .food{
     position:relative;
     width: 100px; height: 100px;
-    left:500px;
-    top:-100px;
+    left:70%;
+    top:-50px;
 	border-radius: 50%;
 	background: darkorange;
 	transform-origin:250% center; 
@@ -164,7 +145,7 @@ main{
     animation: animated_food 15s infinite; 
     color:white;
     font-size:30px;
-    margin-left:150px;
+
     animation:reverse;
     -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
@@ -190,7 +171,7 @@ main{
 .sport{
     position:relative;
     width: 100px; height: 100px;
-    left:100px;
+    left:30%;
     top:50px;
 	border-radius: 50%;
 	background: #0099cc;
@@ -199,7 +180,7 @@ main{
     animation: animated_sport 15s; 
     color:white;
     font-size:30px;
-    margin-left:150px;
+
     animation-direction: reverse; 
     -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
@@ -224,8 +205,8 @@ main{
 .game{
     width: 100px; height: 100px;
     position:relative;
-    left:500px;
-    top:-50px;
+    left:70%;
+    top:90%;
 	border-radius: 50%;
 	background: #00cc99;
 	transform-origin:100% center; 
@@ -233,14 +214,13 @@ main{
     animation: animated_food 15s; 
     color:white;
     font-size:30px;
-    margin-left:150px;
     animation:reverse;
 }
 
 .movie{
     width: 100px; height: 100px;
     position:relative;
-    left:300px;
+    left:50%;
     top:-50px;
 	border-radius: 50%;
 	background: lightpink;
@@ -249,6 +229,6 @@ main{
     animation: animated_food 15s; 
     color:white;
     font-size:30px;
-    margin-left:150px;
+
     animation:reverse;
 }
