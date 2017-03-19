@@ -1,0 +1,254 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;, cursive;
+}
+img,embed,object,video{
+    max-width: 100%;
+}
+header,nav,footer,section,article,div{
+    box-sizing: border-box;
+
+}
+ul{
+    display:block;
+    list-style-type: disc;
+}
+body{
+    display: block;
+    font-style: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+/*header*/
+
+.nav_list {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.nav_item{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    line-height: 24px;
+    padding: 24px;
+    text-transform: uppercase;
+}
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+
+    display: flex;
+}
+
+h1 {
+    color:#33bebe;
+}
+
+.footer{
+    padding: .5em;
+    width:100%;    
+    background-color: #f7f7f7;
+}
+.text-footer{
+    color: #636c72!important;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+}
+main{
+    height: 600px; 
+    margin-top:30px;
+    vertical-align: middle;
+    width:100%;
+}
+.Animation{
+    display:block;
+    width:100%;
+}
+
+.art{
+    font-size:30px;
+    color:white;
+    border-radius: 50%;
+    left:50%;
+    width: 100px;
+    height: 100px;
+    background-color: #00ffff;
+    animation-name: animated_art;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: 3;
+    animation-direction: reverse;    
+}
+
+
+@-webkit-keyframes animated_art {
+    0%   {background-color:#00ffff; left:300px; top:0px;}
+    25%  {background-color:#0099cc; left:50px; top:30px;}
+    50%  {background-color:#00cc99; left:300px; top:100px;}
+    75%  {background-color:#ffff33; left:400px; top: 50px;}
+    100% {background-color:#ff0066; left:0px; top:10px;}
+}
+
+/* Standard syntax */
+@keyframes example{
+    0%   {background-color:#00ffff;}
+    25%  {background-color:#0099cc;}
+    50%  {background-color:#00cc99;}
+    75%  {background-color:#ffff33;}
+    100% {background-color:#ff0066;}
+}
+
+.music{
+    position:relative;
+    left:30%;
+    width: 100px; height: 100px;
+	border-radius: 50%;
+	background: #ffff33;
+	transform-origin:200% center; 
+    animation-name: animated_music;
+    color:white;
+    font-size:30px;
+    margin-left:150px;
+    animation:reverse;
+    position:relative;
+    -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: reverse; 
+}
+@-webkit-keyframes animated_music {
+    0%   {background-color:#ff0066; left:300px; top:0px;}
+    25%  {background-color:#ffff33; left:50px; top:30px;}
+    50%  {background-color:#00cc99; left:300px; top:100px;}
+    75%  {background-color:#0099cc; left:400px; top: 50px;}
+    100% {background-color:#00ffff; left:0px; top:10px;}
+}
+@keyframes example1{
+    0%   {background-color:#ff0066;}
+    25%  {background-color:#0099cc;}
+    50%  {background-color:#00cc99;}
+    75%  {background-color:#ffff33;}
+    100% {background-color:#00ffff;}
+}
+
+.food{
+    position:relative;
+    width: 100px; height: 100px;
+    left:500px;
+    top:-100px;
+	border-radius: 50%;
+	background: darkorange;
+	transform-origin:250% center; 
+    animation-name: animated_food;
+    animation: animated_food 15s infinite; 
+    color:white;
+    font-size:30px;
+    margin-left:150px;
+    animation:reverse;
+    -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: reverse; 
+}
+@-webkit-keyframes animated_food {
+    0%   {background-color:#00cc99; left:300px; top:0px;}
+    25%  {background-color:#ffff33; left:50px; top:30px;}
+    50%  {background-color:#ff0066; left:300px; top:100px;}
+    75%  {background-color:#0099cc; left:400px; top: 50px;}
+    100% {background-color:#0099cc; left:0px; top:10px;}
+}
+@keyframes example2{
+    0%   {background-color:#00cc99;}
+    25%  {background-color:#ffff33;}
+    50%  {background-color:#ff0066;}
+    75%  {background-color:#0099cc;}
+    100% {background-color:#00ffff;}
+}
+
+
+.sport{
+    position:relative;
+    width: 100px; height: 100px;
+    left:100px;
+    top:50px;
+	border-radius: 50%;
+	background: #0099cc;
+	transform-origin:250% center; 
+    animation-name: animated_sport;
+    animation: animated_sport 15s; 
+    color:white;
+    font-size:30px;
+    margin-left:150px;
+    animation-direction: reverse; 
+    -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: reverse; 
+}
+
+@-webkit-keyframes animated_sport {
+    0%   {background-color:#ff0066; left:300px; top:0px;}
+    25%  {background-color:#ffff33; left:50px; top:30px;}
+    50%  {background-color:#00cc99; left:300px; top:100px;}
+    75%  {background-color:#0099cc; left:400px; top: 50px;}
+    100% {background-color:lightpink; left:0px; top:10px;}
+}
+@keyframes example3{
+    0%   {background-color:#ff0066;}
+    25%  {background-color:#0099cc;}
+    50%  {background-color:#00cc99;}
+    75%  {background-color:#ffff33;}
+    100% {background-color:lightpink;}
+}
+.game{
+    width: 100px; height: 100px;
+    position:relative;
+    left:500px;
+    top:-50px;
+	border-radius: 50%;
+	background: #00cc99;
+	transform-origin:100% center; 
+    animation-name: animated_food;
+    animation: animated_food 15s; 
+    color:white;
+    font-size:30px;
+    margin-left:150px;
+    animation:reverse;
+}
+
+.movie{
+    width: 100px; height: 100px;
+    position:relative;
+    left:300px;
+    top:-50px;
+	border-radius: 50%;
+	background: lightpink;
+	transform-origin:100% center; 
+    animation-name: animated_food;
+    animation: animated_food 15s; 
+    color:white;
+    font-size:30px;
+    margin-left:150px;
+    animation:reverse;
+}
