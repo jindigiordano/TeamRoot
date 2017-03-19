@@ -58,19 +58,16 @@ header {
     display: inline-block;
 }
 main{
-<<<<<<< HEAD
     height: 600px;
     margin-top:30px;
-=======
-    height: 700px; 
-    text-align: center
->>>>>>> origin/master
+    height: 700px;
+    text-align: center;
     vertical-align: middle;
     width:100%;
 }
 .Animation{
-    margin-right:50px;
-    margin-left:50px;
+    padding-right:50px;
+    padding-left:50px;
     display:block;
     width:100%;
 }
@@ -193,13 +190,8 @@ main{
     animation: animated_sport 15s;
     color:white;
     font-size:30px;
-<<<<<<< HEAD
     margin-left:150px;
     animation-direction: reverse;
-=======
-
-    animation-direction: reverse; 
->>>>>>> origin/master
     -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
     -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
