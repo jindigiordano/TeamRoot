@@ -103,8 +103,8 @@ main{
 
 @-webkit-keyframes animated_art {
     0%   {background-color:#00ffff; left:600px; top:0px;}
-    25%  {background-color:#0099cc; left:0px; top:500px;}
-    50%  {background-color:#00cc99; left:600px; top:500px;}
+    25%  {background-color:#0099cc; left:0px; top:200px;}
+    50%  {background-color:#00cc99; left:600px; top:300px;}
     75%  {background-color:#ffff33; left:400px; top: 0px;}
     100% {background-color:#ff0066; left:600px; top:0px;}
 }
@@ -112,8 +112,8 @@ main{
 /* Standard syntax */
 @keyframes example{
     0%   {background-color:#00ffff; left:600px; top:0px;}
-    25%  {background-color:#0099cc; left:0px; top:500px;}
-    50%  {background-color:#00cc99; left:600px; top:500px;}
+    25%  {background-color:#0099cc; left:0px; top:200px;}
+    50%  {background-color:#00cc99; left:600px; top:300px;}
     75%  {background-color:#ffff33; left:400px; top: 0px;}
     100% {background-color:#ff0066; left:600px; top:0px;}
 }
@@ -139,17 +139,17 @@ main{
 }
 @-webkit-keyframes animated_music {
     0%   {background-color:#ff0066; left:600px; top:0px;}
-    25%  {background-color:#ffff33; left:600px; top:500px;}
-    50%  {background-color:#00cc99; left:600px; top:500px;}
+    25%  {background-color:#ffff33; left:600px; top:200px;}
+    50%  {background-color:#00cc99; left:600px; top:300px;}
     75%  {background-color:#0099cc; left:400px; top: 0px;}
     100% {background-color:#00ffff; left:0px; top:10px;}
 }
 @keyframes example1{
     0%   {background-color:#ff0066; left:0px; top:0px;}
-    25%  {background-color:#ffff33; left:600px; top:500px;}
-    50%  {background-color:#00cc99; left:600px; top:500px;}
+    25%  {background-color:#ffff33; left:600px; top:200px;}
+    50%  {background-color:#00cc99; left:600px; top:300px;}
     75%  {background-color:#0099cc; left:400px; top: 0px;}
-    100% {background-color:#00ffff; left:0px; top:10px;}
+    100% {background-color:#00ffff; left:0px; top:0px;}
 }
 
 .food{
@@ -175,15 +175,15 @@ main{
 }
 @-webkit-keyframes animated_food {
     0%   {background-color:#00cc99; left:0px; top:0px;}
-    25%  {background-color:#ffff33; left:600px; top:500px;}
-    50%  {background-color:#ff0066; left:600px; top:500px;}
+    25%  {background-color:#ffff33; left:600px; top:300px;}
+    50%  {background-color:#ff0066; left:600px; top:200px;}
     75%  {background-color:#0099cc; left:400px; top: 0px;}
     100% {background-color:#0099cc; left:0px; top:0px;}
 }
 @keyframes example2{
     0%   {background-color:#00cc99; left:0px; top:0px;}
-    25%  {background-color:#ffff33; left:600px; top:500px;}
-    50%  {background-color:#ff0066; left:600px; top:500px;}
+    25%  {background-color:#ffff33; left:600px; top:200px;}
+    50%  {background-color:#ff0066; left:600px; top:300px;}
     75%  {background-color:#0099cc; left:400px; top: 0px;}
     100% {background-color:#0099cc; left:0px; top:0px;}
 }
