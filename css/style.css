@@ -11,9 +11,10 @@ header, #did-u-kno {
   background-color: #eeeeee;
 }
 
-header a {
+header a, #did-u-kno p {
   text-align: center;
   display: block;
+  margin-bottom: 50px;
 }
 h1, h2 {
   font-family: 'Pacifico', cursive;
@@ -31,12 +32,25 @@ h1 {
 }
 
 #did-u-kno iframe {
-  margin: 0 auto;
+  float: left;
+  margin-right: 20px;
 }
 
-#did-u-kno .content {
+#did-u-kno image {
+  float: left;
+  top: -100px;
+  right: 100px;
+}
+#resources {
+  text-align: left;
+}
+#resources li {
+  display: block;
+}
+
+/*#did-u-kno .content {
   background-image: url("../img/girl.png");
   background-size: 200px;
   background-repeat: no-repeat;
   background-position: right;
-}
+}*/
