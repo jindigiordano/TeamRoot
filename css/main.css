@@ -26,7 +26,12 @@ body{
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
-/*header*/
+header {
+  background-image:
+  url("../img/startup-photos.jpg");
+  background-color: grey;
+  background-size: 100% 100%;
+}
 
 .nav_list {
   width: 100%;
@@ -61,7 +66,7 @@ h1 {
 
 .footer{
     padding: .5em;
-    width:100%;    
+    width:100%;
     background-color: #f7f7f7;
 }
 .text-footer{
@@ -71,7 +76,7 @@ h1 {
     display: inline-block;
 }
 main{
-    height: 600px; 
+    height: 600px;
     margin-top:30px;
     vertical-align: middle;
     width:100%;
@@ -98,7 +103,7 @@ main{
     animation-name: example;
     animation-duration: 10s;
     animation-iteration-count: 3;
-    animation-direction: reverse;    
+    animation-direction: reverse;
 }
 
 
@@ -125,7 +130,7 @@ main{
     width: 100px; height: 100px;
 	border-radius: 50%;
 	background: #ffff33;
-	transform-origin:200% center; 
+	transform-origin:200% center;
     animation-name: animated_music;
     color:white;
     font-size:30px;
@@ -135,7 +140,7 @@ main{
     -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
     -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    -webkit-animation-direction: reverse; 
+    -webkit-animation-direction: reverse;
 }
 @-webkit-keyframes animated_music {
     0%   {background-color:#ff0066; left:300px; top:0px;}
@@ -159,9 +164,9 @@ main{
     top:-100px;
 	border-radius: 50%;
 	background: darkorange;
-	transform-origin:250% center; 
+	transform-origin:250% center;
     animation-name: animated_food;
-    animation: animated_food 15s infinite; 
+    animation: animated_food 15s infinite;
     color:white;
     font-size:30px;
     margin-left:150px;
@@ -169,7 +174,7 @@ main{
     -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
     -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    -webkit-animation-direction: reverse; 
+    -webkit-animation-direction: reverse;
 }
 @-webkit-keyframes animated_food {
     0%   {background-color:#00cc99; left:300px; top:0px;}
@@ -194,17 +199,17 @@ main{
     top:50px;
 	border-radius: 50%;
 	background: #0099cc;
-	transform-origin:250% center; 
+	transform-origin:250% center;
     animation-name: animated_sport;
-    animation: animated_sport 15s; 
+    animation: animated_sport 15s;
     color:white;
     font-size:30px;
     margin-left:150px;
-    animation-direction: reverse; 
+    animation-direction: reverse;
     -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
     -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
-    -webkit-animation-direction: reverse; 
+    -webkit-animation-direction: reverse;
 }
 
 @-webkit-keyframes animated_sport {
@@ -228,9 +233,9 @@ main{
     top:-50px;
 	border-radius: 50%;
 	background: #00cc99;
-	transform-origin:100% center; 
+	transform-origin:100% center;
     animation-name: animated_food;
-    animation: animated_food 15s; 
+    animation: animated_food 15s;
     color:white;
     font-size:30px;
     margin-left:150px;
@@ -244,9 +249,9 @@ main{
     top:-50px;
 	border-radius: 50%;
 	background: lightpink;
-	transform-origin:100% center; 
+	transform-origin:100% center;
     animation-name: animated_food;
-    animation: animated_food 15s; 
+    animation: animated_food 15s;
     color:white;
     font-size:30px;
     margin-left:150px;
