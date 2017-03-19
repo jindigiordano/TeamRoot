@@ -12,6 +12,11 @@ body{
     font-style: white;
     text-align: center;
 }
+.header h1{
+    color:transparent;
+    text-shadow: 0 0 5px rgba(1,0,1,1);
+
+}
 header {
   background-image:
   url("../img/startup-photos.jpg");
@@ -58,10 +63,12 @@ header {
     display: inline-block;
 }
 main{
-    height: 600px;
+
+
     margin-top:30px;
-    height: 700px;
+    height: 700px; 
     text-align: center;
+
     vertical-align: middle;
     width:100%;
 }
@@ -104,11 +111,11 @@ main{
 
 /* Standard syntax */
 @keyframes example{
-    0%   {background-color:#00ffff; left:300px; top:0px;}
-    25%  {background-color:#0099cc; left:50px; top:30px;}
-    50%  {background-color:#00cc99; left:300px; top:100px;}
-    75%  {background-color:#ffff33; left:400px; top: 50px;}
-    100% {background-color:#ff0066; left:0px; top:10px;}
+    0%   {background-color:#00ffff; left:600px; top:0px;}
+    25%  {background-color:#0099cc; left:0px; top:500px;}
+    50%  {background-color:#00cc99; left:600px; top:500px;}
+    75%  {background-color:#ffff33; left:400px; top: 0px;}
+    100% {background-color:#ff0066; left:600px; top:0px;}
 }
 
 .music{
@@ -127,20 +134,22 @@ main{
     -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
     -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
     -webkit-animation-direction: reverse;
+    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1s;
 }
 @-webkit-keyframes animated_music {
-    0%   {background-color:#ff0066; left:300px; top:0px;}
-    25%  {background-color:#ffff33; left:50px; top:30px;}
-    50%  {background-color:#00cc99; left:300px; top:100px;}
-    75%  {background-color:#0099cc; left:400px; top: 50px;}
+    0%   {background-color:#ff0066; left:600px; top:0px;}
+    25%  {background-color:#ffff33; left:600px; top:500px;}
+    50%  {background-color:#00cc99; left:600px; top:500px;}
+    75%  {background-color:#0099cc; left:400px; top: 0px;}
     100% {background-color:#00ffff; left:0px; top:10px;}
 }
 @keyframes example1{
-    0%   {background-color:#ff0066;}
-    25%  {background-color:#0099cc;}
-    50%  {background-color:#00cc99;}
-    75%  {background-color:#ffff33;}
-    100% {background-color:#00ffff;}
+    0%   {background-color:#ff0066; left:0px; top:0px;}
+    25%  {background-color:#ffff33; left:600px; top:500px;}
+    50%  {background-color:#00cc99; left:600px; top:500px;}
+    75%  {background-color:#0099cc; left:400px; top: 0px;}
+    100% {background-color:#00ffff; left:0px; top:10px;}
 }
 
 .food{
@@ -161,20 +170,22 @@ main{
     -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
     -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
     -webkit-animation-direction: reverse;
+    -webkit-animation-delay: 1.5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1.5s;
 }
 @-webkit-keyframes animated_food {
-    0%   {background-color:#00cc99; left:300px; top:0px;}
-    25%  {background-color:#ffff33; left:50px; top:30px;}
-    50%  {background-color:#ff0066; left:300px; top:100px;}
-    75%  {background-color:#0099cc; left:400px; top: 50px;}
-    100% {background-color:#0099cc; left:0px; top:10px;}
+    0%   {background-color:#00cc99; left:0px; top:0px;}
+    25%  {background-color:#ffff33; left:600px; top:500px;}
+    50%  {background-color:#ff0066; left:600px; top:500px;}
+    75%  {background-color:#0099cc; left:400px; top: 0px;}
+    100% {background-color:#0099cc; left:0px; top:0px;}
 }
 @keyframes example2{
-    0%   {background-color:#00cc99;}
-    25%  {background-color:#ffff33;}
-    50%  {background-color:#ff0066;}
-    75%  {background-color:#0099cc;}
-    100% {background-color:#00ffff;}
+    0%   {background-color:#00cc99; left:0px; top:0px;}
+    25%  {background-color:#ffff33; left:600px; top:500px;}
+    50%  {background-color:#ff0066; left:600px; top:500px;}
+    75%  {background-color:#0099cc; left:400px; top: 0px;}
+    100% {background-color:#0099cc; left:0px; top:0px;}
 }
 
 
@@ -190,7 +201,6 @@ main{
     animation: animated_sport 15s;
     color:white;
     font-size:30px;
-    margin-left:150px;
     animation-direction: reverse;
     -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
@@ -201,16 +211,16 @@ main{
 @-webkit-keyframes animated_sport {
     0%   {background-color:#ff0066; left:300px; top:0px;}
     25%  {background-color:#ffff33; left:50px; top:30px;}
-    50%  {background-color:#00cc99; left:300px; top:100px;}
-    75%  {background-color:#0099cc; left:400px; top: 50px;}
+    50%  {background-color:#00cc99; left:100px; top:100px;}
+    75%  {background-color:#0099cc; left:100px; top: 50px;}
     100% {background-color:lightpink; left:0px; top:10px;}
 }
 @keyframes example3{
-    0%   {background-color:#ff0066;}
-    25%  {background-color:#0099cc;}
-    50%  {background-color:#00cc99;}
-    75%  {background-color:#ffff33;}
-    100% {background-color:lightpink;}
+    0%   {background-color:#ff0066; left:300px; top:0px;}
+    25%  {background-color:#ffff33; left:50px; top:30px;}
+    50%  {background-color:#00cc99; left:100px; top:100px;}
+    75%  {background-color:#0099cc; left:100px; top: 50px;}
+    100% {background-color:lightpink; left:0px; top:10px;}
 }
 .game{
     width: 100px; height: 100px;
